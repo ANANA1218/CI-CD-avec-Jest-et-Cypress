@@ -26,6 +26,7 @@ jobs:
 
       - name: Run Jest tests
         run: npm test
+        timeout-minutes: 1
 
       - name: Run Cypress tests
         run: npm run cypress:run
